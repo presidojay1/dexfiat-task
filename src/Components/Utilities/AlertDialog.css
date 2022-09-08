@@ -1,0 +1,59 @@
+.block {
+    display: block;
+    width: 70%;
+    border: none;
+    background-color: #fcf8f1;
+    padding: 14px 28px;
+    border: 1px solid green;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-left:15%;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: left;
+ 
+
+  }
+
+  .dialogg{
+    padding: 0;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(6, 36, 10, 0.9),rgb(231, 231, 230,0.8));
+  }
+  .contentwidth{
+    min-width: 400px;
+    width: 100%;
+    height: 100%;
+    min-height: 45vh;
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(rgba(1, 48, 7, 0.9),rgba(1, 49, 7, 0.7));
+   
+    
+  }
+  .Dailogcontent{
+    margin: 0;
+    padding: 0;
+  }
+  .DialogTitle{
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+  }
+  .fiat-ticket{
+    text-align: center;
+    margin-top: 15px;
+  }
+  .learnhowto{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color: white;
+  }
+  .linkNames{
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .fa-circle-question{
+    margin-right: 5px;
+  }

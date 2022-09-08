@@ -1,0 +1,347 @@
+.NavigationHead{
+    margin-right: 22% !important;
+
+}
+  .navlogo{
+    display: flex;  
+    margin-right: 60px;
+}
+.navlogo > img{
+    height: 70px;
+}
+
+.navIcons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+.navlogoName > h3{
+    
+    color: green;
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.navnightmode{
+    display: flex;
+    margin-top: 22px;
+    margin-right: 3%;
+    justify-content: space-between;
+    margin-left: 20%;
+ }
+ .buttona {
+    background-color: #ecc204;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-right: 15px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: -10px;
+    border-radius: 20px;
+  }
+  .buttonax {
+    border: none;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #FFFFFF;
+    padding: 10px !important;
+    margin-right: 15px;
+    
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px !important;
+  }
+  .fa-sun{
+    color: rgb(247, 247, 100);
+    transition: 2s;
+ }
+ .fa-moon{
+    color: gray;
+    transition: 2s;
+ }
+
+ .NavIconBordered > h5{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+}
+.NavIconBordered >.crossborder{
+    font-size: 14px;
+    padding-bottom: -1px;
+}
+.NavIconBordered{
+    display: flex;
+    background-color: lightgreen;
+    height: 70%;
+    padding: 10px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    border: 0.1px solid green;
+    justify-content: center;
+}
+.NavIconBorderLess{
+
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.fa-house{
+    color: green;
+    margin-bottom: 5px;
+ }
+ .fa-coins{
+     color: green;
+  
+     margin-bottom: 5px;
+ 
+  }
+  .fa-retweet{
+     color: green;
+     margin-bottom: 5px;
+  }
+  .fa-bridge{
+     color: green;
+     margin-bottom: 5px;
+ 
+  }
+  .fa-right-left{
+     color: green;
+     margin-bottom: 5px;
+    
+  }
+  .fa-shield-halved{
+     color: green;
+ 
+     margin-bottom: 5px; }
+  .fa-circle-info{
+     color: green;
+     margin-bottom: 5px;
+ 
+  }
+  .fa-circle-dot{
+     color: green;
+     margin-bottom: 5px;
+     margin-left: 5px;
+  }
+ 
+  .fa-sun{
+     color: rgb(247, 247, 100);
+     transition: 2s;
+  }
+  .fa-moon{
+     color: gray;
+     transition: 2s;
+  }
+
+
+  @media screen and (max-width:1500px) and (min-width:1400px) {
+    .NavigationHead{
+        margin-right: 10% !important;
+    
+    }
+      .navlogo{
+        display: flex;  
+        margin-right: 10px;
+    }
+    .navnightmode{
+        display: flex;
+        margin-top: 22px;
+        margin-right: 3%;
+        justify-content: space-between;
+        margin-left: 1%;
+     }
+  }
+@media screen and (max-width:1399px) and (min-width:1280px) {
+
+    .navlogo{
+        display: flex;  
+        margin-right: 1px;
+    }
+    .navnightmode{
+        display: flex;
+        margin-top: 22px;
+        margin-right: 3%;
+        justify-content: space-between;
+        margin-left: 1%;
+     }
+    .navlogoName > h3{
+    
+        color: green;
+        font-style: italic;
+        font-size: 2em;
+    }
+    .navlogo{
+        display: flex;
+        margin-top: -10px;
+
+    }
+    .navIcons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-left: 1%;
+    
+    }
+    .navnightmode{
+        display: flex;
+        margin-top: 22px;
+        margin-right: 3%;
+        right: 260%;
+        top: 120%;
+        position: relative;
+        justify-content: space-between;
+     }
+     .NavigationHead{
+        margin-right: 30% !important;
+
+    }
+    .NavIconBordered > h5{
+        font-size: 16px;
+    
+        font-weight: bold;
+        margin-bottom: 15px;
+        
+    }
+    .NavIconBordered{
+        display: flex;
+        background-color: lightgreen;
+        height: 70%;
+        padding: 10px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+        border: 0.1px solid green;
+        justify-content: center;
+    }
+}
+    @media screen and (max-width:1279px) and (min-width:1150px) {
+        .navlogo{
+            display: flex;  
+            margin-right: 1px;
+        }
+        .navlogoName > h3{
+    
+            color: green;
+            font-style: italic;
+            font-size: 2em;
+        }
+        .navlogo{
+            display: flex;
+            margin-top: -10px;
+    
+        }
+        .navIcons{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-left: 1%;
+        
+        }
+        .navnightmode{
+            display: flex;
+            margin-top: 22px;
+            margin-right: 3%;
+            right: 260%;
+            top: 120%;
+            position: relative;
+            justify-content: space-between;
+         }
+         .NavigationHead{
+            margin-right: 30% !important;
+    
+        }
+        .NavIconBordered > h5{
+            font-size: 16px;
+        
+            font-weight: bold;
+            margin-bottom: 15px;
+            
+        }
+        .NavIconBordered{
+            display: flex;
+            background-color: lightgreen;
+            height: 70%;
+            padding: 10px;
+            padding-right: 20px;
+            padding-bottom: 5px;
+            border-radius: 10px;
+            border: 0.1px solid green;
+            justify-content: center;
+        }
+    }
+    @media screen and (max-width:1149px) and (min-width:990px) {
+        .navlogo{
+            display: flex;  
+            margin-right: 1px;
+        }
+        .navlogoName > h3{
+    
+            color: green;
+            font-style: italic;
+            font-size: 36px;
+            margin-left: 10px;
+        }
+        .navlogo{
+            display: flex;
+            margin-top: -10px;
+    
+        }
+        .navIcons{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-left: -1%;
+        }
+        .navnightmode{
+            display: flex;
+            margin-top: 22px;
+            margin-right: 3%;
+            right: 220%;
+            top: 120%;
+            position: relative;
+            justify-content: space-between;
+         }
+         .NavigationHead{
+            margin-right: 30% !important;
+    
+        }
+        .NavIconBordered > h5{
+            font-size: 15px;
+        
+            font-weight: bold;
+            margin-bottom: 15px;
+            
+        }
+        .NavIconBordered{
+            display: flex;
+            background-color: lightgreen;
+            height: 70%;
+            padding: 10px;
+            padding-right: 3px;
+            padding-bottom: 1px;
+            border-radius: 10px;
+            border: 0.1px solid green;
+            justify-content: center;
+        }
+    }
+    @media screen and (max-width:989px) and (min-width:985px) {
+        .NavigationHead{
+            margin-right: 15% !important;
+            margin-top: 2%;
+    
+        }
+    }

@@ -1,0 +1,77 @@
+.secondBody{
+    width: 58%;
+    margin: 0 auto;
+    margin-top: 1vh;
+}
+.lastplace{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3vh;
+    background-image: linear-gradient(rgba(9, 209, 52, 0.7),rgba(8, 214, 18, 0.7)), url(https://ak.picdn.net/shutterstock/videos/1062956539/thumb/12.jpg?ip=x480);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: white;
+}
+.lastplace > .fonts{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.p2p{
+    text-align: center;
+}
+.secondbodymaindiv{
+    display: flex;
+    justify-content: space-between;
+}
+.profilepic{
+    display: flex;
+    margin-bottom: 20px;
+}
+.buttondiv{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-down-long{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.fa-up-long{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.Blueo{
+    background-color: aqua;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+.greeno{
+    background-color: green;
+    width: 10px;
+    height: 11px;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+.Blueo > p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.amountdiv > p{
+    font-size: 17px;
+}
+.amountpurchased{
+    font-weight: bold;
+    font-size: 24px;
+}
+.boughtfrom{
+    color: green;
+    font-weight: bold;
+}

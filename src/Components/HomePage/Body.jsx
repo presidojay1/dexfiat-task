@@ -12,7 +12,7 @@ const Body = () => {
                 </div>
             </div>
 
-            <h1>500,000.46 USDT</h1>
+            <h1>500,002.46 USDT</h1>
 
             <div className="p2pbutton">
                 <div className="p2pbuttons">
@@ -24,7 +24,7 @@ const Body = () => {
                     <h5>buy with card</h5>
                 </div>
                 <div className="p2pbuttons">
-                    <h5>Cross-border</h5>
+                    <h5>Cross border</h5>
                 </div>
                 <div className="p2pbuttons">
                 <i class="fa-solid fa-desktop"></i>
